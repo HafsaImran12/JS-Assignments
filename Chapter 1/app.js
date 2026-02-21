@@ -1,15 +1,16 @@
 // Question 1
-// alert("hello");
+alert("hello");
 
 // Question 2
-// alert("Error! Please enter a valid pasword.");
+alert("Error! Please enter a valid pasword.");
 
 // Question 3
-// alert("Welcome to js land... \n Happy Coding!");
+alert("Welcome to js land... \n Happy Coding!");
 
 // Question 4
-// alert("Welcome to js land...");
-// alert("Happy Coding!");
+alert("Welcome to js land...");
+alert("Happy Coding!");
 
 // Question 5
-// alert("Hello... Can I run JS througn my web browser's console");
+alert("Hello... Can I run JS througn my web browser's console");
+console.log("Hello... Can I run JS througn my web browser's console");
