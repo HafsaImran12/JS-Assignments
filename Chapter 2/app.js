@@ -5,7 +5,11 @@ var username;
 var myName = "Hafsa Imran";
 
 // question 3
+// a)
+var message;
+// b)
 var message = "Hello World";
+// c)
 alert(message);
 
 // question 4
