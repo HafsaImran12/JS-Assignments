@@ -1,101 +1,95 @@
 // Question 01
+document.write(`<h3>Answer: 1</h3>`);
 let a = 3,
-  b = 5;
+b = 5;
 let c = a + b;
-document.write("<h3>Answer 01</h3>");
-document.write("<h4>Simple Mathmatics</h4>");
-document.write("Sum of 3 and 5 is " + c);
+document.write(`Sum of ${a} and ${b} is ${c}`);
 
 // Question 02
-document.write("<h3>Answer 02</h3>");
-let d = a - b;
-document.write("subtraction of 3 and 5 is " + d + "<br/>");
-let e = a * b;
-document.write("Multiplication of 3 and 5 is " + e + "<br/>");
-let f = a / b;
-document.write("Division of 3 and 5 is " + f + "<br/>");
-let g = a % b;
-document.write("Modulus of 3 and 5 is " + g);
+document.write(`<h3>Answer: 2</h3>`);
+ c = a - b;
+document.write(`Subtraction of ${a} and ${b} is ${c} <br/>`);
+ c = a * b;
+document.write(`Multiplication of ${a} and ${b} is ${c} <br/>`);
+ c = a / b;
+ document.write(`Division of ${a} and ${b} is ${c} <br/>`);
+ c = a % b;
+document.write(`Modulus of ${a} and ${b} is ${c}`);
 
 // Question 03
-document.write("<h3>Answer 03</h3>");
+document.write(`<h3>Answer: 3</h3>`);
 // a)
-let number;
+let num="??";
 // b)
-document.write("Value after variable declaration is: undefined <br/>");
+document.write(`Value after variable declaration is: ${num} <br/>`);
 // c)
-number = 5;
+num=5;
 // d)
-document.write("Initial value: " + number + "<br/>");
+document.write(`Initial value: ${num} <br/>`);
 // e)
-number++;
+num++;
 // f)
-document.write("Value after increment is: " + number + "<br/>");
+document.write(`Value after increment: is ${num} <br/>`);
 // g)
-number = number + 7;
+num=num+7;
 // h)
-document.write("Value after addition is: " + number + "<br/>");
+document.write(`Value after addition: is ${num} <br/>`);
 // i)
-number--;
+num--;
 // j)
-document.write("Value after decrement is: " + number + "<br/>");
+document.write(`Value after decrement: is ${num} <br/>`);
 // k)
-number = number % 3;
+num=num%3
 // l)
-document.write("The remainder is : " + number);
+document.write(`The remainder is: ${num} <br/>`);
 
-// Question 04)
-document.write("<h3>Answer 04</h3>");
-document.write("<h4>Movie tickets</h4>");
-let ticketPrice = 600;
-document.write("Cost of one movie ticket is " + ticketPrice + " PKR. <br/>");
-ticketPrice = ticketPrice * 5;
-document.write(
-  "Total cost to buy 5 tickets to a movie is " + ticketPrice
-);
+// Question 4
+document.write(`<h3>Answer: 4</h3>`);
+let ticketPrice=600
+document.write(`Total cost to buy 5 tickets to a movie is ${ticketPrice*5} PKR`);
 
-// Question 05)
-document.write("<h3>Answer 05</h3>");
-document.write("<h4>Table of 5</h4>");
-let num = 5;
-for (let i = 1; i <= 10; i++) {
-    document.write(num + "x" + i + "=" + num * i + "<br/>");
-}
+// Question 5
+document.write(`<h3>Answer: 5</h3>`);
+let table=6
+document.write(`Table of ${table} <br/>`);
+document.write(`${table} x 1 = ${table*1} <br/>`);
+document.write(`${table} x 2 = ${table*2} <br/>`);
+document.write(`${table} x 3 = ${table*3} <br/>`);
+document.write(`${table} x 4 = ${table*4} <br/>`);
+document.write(`${table} x 5 = ${table*5} <br/>`);
+document.write(`${table} x 6 = ${table*6} <br/>`);
+document.write(`${table} x 7 = ${table*7} <br/>`);
+document.write(`${table} x 8 = ${table*8} <br/>`);
+document.write(`${table} x 9 = ${table*9} <br/>`);
+document.write(`${table} x 10 = ${table*10} <br/>`);
 
-// Question 07)
-document.write("<h3>Answer 07</h3>");
-let item1 = 650;
-let orderQuantity1 = 3;
-let item2 = 100;
-let orderQuantity2 = 7;
-let shippingCharges = 100;
-document.write("<h4>Shopping Cart</h4>");
-document.write("Price of item 1 is " + item1 + "<br/>");
-document.write("Price of item 2 is " + item2 + "<br/>");
-document.write("Ordered quantity of item 1 is " + orderQuantity1 + "<br/>");
-document.write("Ordered quantity of item 2 is " + orderQuantity2 + "<br/>");
-document.write("Shipping charges: " + shippingCharges + "<br/>");
-document.write(
-  "Total cost of your order is " +
-    (item1 * orderQuantity1 + item2 * orderQuantity2 + shippingCharges)
-);
+// Question 7
+document.write(`<h3>Answer: 7</h3>`);
+let item1=650;
+let item2=100;
+let quantityItem1=3;
+let quantityItem2=7;
+let shippingCharges=100;
 
-// Question 08
-document.write("<h3>Answer 08</h3>");
-document.write("<h4>Student Percentage</h4>");
-let totalMarks = 980;
-let marksObtained = 804;
-document.write("Total Marks: " + totalMarks + "<br/>");
-document.write("Marks Obtained: " + marksObtained + "<br/>");
-document.write(
-  "Percentage: " + (marksObtained / totalMarks) * 100 + "%"
-);
+document.write(`Price of item 1 is ${item1} <br/>`);
+document.write(`Quantity of item 1 is ${quantityItem1} <br/>`);
+document.write(`Price of item 2 is ${item2} <br/>`);
+document.write(`Quantity of item 2 is ${quantityItem2} <br/>`);
+document.write(`Shipping Charges ${shippingCharges} <br/>`);
+document.write(`<br/>`);
+document.write(`Total cost of your order is ${item1*quantityItem1+item2*quantityItem2+shippingCharges}`);
 
-// Question 09
-document.write("<h3>Answer 09</h3>");
-document.write("<h4>Currency in PKR</h4>");
-let usDollor = 10;
-let saudiRiyal = 25;
-document.write(
-  "Total currency in PKR " + (usDollor * 279.04 + saudiRiyal * 74.49)
-);
+// Question 8
+document.write(`<h3>Answer: 8</h3>`);
+let totalMarks=980;
+let marksObtained=804;
+document.write(`Total marks: ${totalMarks} <br/>`)
+document.write(`Marks obtained: ${marksObtained} <br/>`)
+document.write(`Percentage: ${marksObtained/totalMarks*100} %`)
+
+// Question 9
+document.write(`<h3>Answer: 9</h3>`);
+let dollar=10*279;
+let riyal=25*74;
+document.write(`<h2>Currency in PKR</h2>`);
+document.write(`Total currency: ${dollar+riyal}`)
