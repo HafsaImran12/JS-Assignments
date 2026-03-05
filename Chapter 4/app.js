@@ -7,14 +7,14 @@ let userName;
 let _age;
 let Number1;
 let $dollor;
-let city;
+let country;
 
 // illegal name
-let var;
-let user name; 
-let 123number;
-let @email;
-let student-name;
+// let var;
+// let user name; 
+// let 123number;
+// let @email;
+// let student-name;
 
 // Question 03
 // a)
