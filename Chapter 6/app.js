@@ -1,3 +1,5 @@
+// CHAPTER 06
+
 // Question 01
 
 // let a=10;
@@ -42,5 +44,10 @@
 
 // Question 03
 
-let userName = prompt("Enter Your Name");
-document.write(`Hey: ${userName}`);
+// let userName = prompt("Enter Your Name");
+// document.write(`Hey: ${userName}`);
+
+let num1 = +prompt("Enter first number");
+let num2 = +prompt("Enter second number");
+let sum = num1 + num2;
+document.write(`Sum of ${num1} and ${num2} is ${sum}`)
