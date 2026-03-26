@@ -2,8 +2,8 @@
 
 // Question 01
 document.write(`<h3>Answer: 1</h3>`);
-let a = 3,
-  b = 5;
+let a = +prompt("Enter your first number"),
+    b = +prompt("Enter your second number");
 let c = a + b;
 document.write(`Sum of ${a} and ${b} is ${c}`);
 
@@ -21,7 +21,7 @@ document.write(`Modulus of ${a} and ${b} is ${c}`);
 // Question 03
 document.write(`<h3>Answer: 3</h3>`);
 // a)
-let num = "??";
+let num;
 // b)
 document.write(`Value after variable declaration is: ${num} <br/>`);
 // c)
@@ -54,19 +54,30 @@ document.write(
 
 // Question 5
 document.write(`<h3>Answer: 5</h3>`);
-let table = 6;
+// let tableNum = +prompt(`Enter table number`);
+let tableNum =4;
 let count = 1;
-document.write(`Table of ${table} <br/>`);
-document.write(`${table} x 1 = ${table * count++} <br/>`);
-document.write(`${table} x 2 = ${table * count++} <br/>`);
-document.write(`${table} x 3 = ${table * count++} <br/>`);
-document.write(`${table} x 4 = ${table * count++} <br/>`);
-document.write(`${table} x 5 = ${table * count++} <br/>`);
-document.write(`${table} x 6 = ${table * count++} <br/>`);
-document.write(`${table} x 7 = ${table * count++} <br/>`);
-document.write(`${table} x 8 = ${table * count++} <br/>`);
-document.write(`${table} x 9 = ${table * count++} <br/>`);
-document.write(`${table} x 10 = ${table * count++} <br/>`);
+document.write(`Table of ${tableNum} <br/>`);
+document.write(`${tableNum} x ${count} = ${tableNum} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+count++
+document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
+
 
 // Question 7
 document.write(`<h3>Answer: 7</h3>`);

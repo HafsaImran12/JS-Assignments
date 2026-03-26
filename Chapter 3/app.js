@@ -1,7 +1,7 @@
 // CHAPTER 03
 
 // Question 01
-let age = 18;
+let age = 16;
 alert("I am " + age + " years old");
 
 // Question 02
