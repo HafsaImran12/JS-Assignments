@@ -45,14 +45,26 @@
 //   alert(`False`);
 // }
 
+// Question 05
+// let password = "correct";
+// let user = prompt(`Enter a correct password`)
 
+// if (user !== password) {
+//   alert(`Please enter your password`);
+// } else if (user === password){
+//   alert(`Correct! The password you
+// entered matches the original password`)
+// } else {
+//   alert(`Incorrect password`)
+// }
 
-let mode = 'light'
-let color;
-if (mode === 'dark') {
-  color ="black"
-}
-if (mode === 'light') {
-  color ="white"
-}
-console.log(color)
+// Question 06
+
+// let greeting;
+// let hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+// } else{
+// greeting = "Good evening";
+// }
+// console.log(greeting)
