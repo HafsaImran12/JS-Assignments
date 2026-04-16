@@ -68,3 +68,5 @@
 // greeting = "Good evening";
 // }
 // console.log(greeting)
+
+// Question 07
