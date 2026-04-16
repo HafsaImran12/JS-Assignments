@@ -37,10 +37,22 @@
 // }
 
 // Question 04
-let vowels = ["a", "e", "i", "o", "u"];
-let character = prompt("Enter any character");
-if (character == vowels) {
-  alert(`True ${vowels} is a Vowel`);
-} else {
-  alert(`False`);
+// let vowels = ;
+// let character = prompt("Enter any character");
+// if (character === vowels) {
+//   alert(`True ${vowels} is a Vowel`);
+// } else {
+//   alert(`False`);
+// }
+
+
+
+let mode = 'light'
+let color;
+if (mode === 'dark') {
+  color ="black"
 }
+if (mode === 'light') {
+  color ="white"
+}
+console.log(color)
