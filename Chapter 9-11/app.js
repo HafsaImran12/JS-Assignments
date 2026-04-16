@@ -175,14 +175,22 @@
 
 // Question 11
 
-let firstNumber = +prompt(`Enter first number`);
-let secondNumber = +prompt(`Enter second number`);
-let addition = firstNumber + secondNumber
-let subtraction = firstNumber - secondNumber
-let multiplication = firstNumber * secondNumber
-let division = firstNumber / secondNumber
-let modulus = firstNumber % secondNumber
+let num1 = +prompt(`Enter first number`);
+let num2 = +prompt(`Enter second number`);
+let operator = prompt(`Enter operator(+,-,*,/,%):`);
 
-if (addition) {
-    alert(${firstNumber + secondNumber} is ${addition} )
+let result;
+if (operator === "+") {
+    result = num1 + num2;
+} else if(operator === "-"){
+    result = num1 - num2;
+} else if(operator === "*"){
+    result = num1 * num2;
+} else if(operator === "/"){
+    result = num1 / num2;
+} else if(operator === "%"){
+    result = num1 % num2;
+} else {
+    result = "Invalid Number"
 }
+alert(result)
