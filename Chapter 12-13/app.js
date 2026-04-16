@@ -13,7 +13,7 @@
 //   console.log("Special Character");
 // }
 
-// Question 01
+// Question 02
 // let a = +prompt("Enter first number");
 // let b = +prompt("Enter second number");
 // if (a > b) {
@@ -26,11 +26,21 @@
 //   alert("Special character");
 // }
 
-let num = +prompt("Enter Number")
-if (num > 0) {
-    alert("Positive Number")
-} else if (num < 0) {
-    alert("Negative Number")
+// Question 03
+// let num = +prompt("Enter Number");
+// if (num > 0) {
+//   alert("Positive Number");
+// } else if (num < 0) {
+//   alert("Negative Number");
+// } else {
+//   alert("Zero");
+// }
+
+// Question 04
+let vowels = ["a", "e", "i", "o", "u"];
+let character = prompt("Enter any character");
+if (character == vowels) {
+  alert(`True ${vowels} is a Vowel`);
 } else {
-    alert("Zero")
+  alert(`False`);
 }

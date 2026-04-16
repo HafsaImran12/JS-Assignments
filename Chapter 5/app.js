@@ -78,6 +78,17 @@ document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
 count++
 document.write(`${tableNum} x ${count} = ${tableNum * count} <br/>`);
 
+// Question 6
+// a
+let c = 25
+// b
+let f = (c * 9 / 5) + 32
+console.log(`${c} °C is ${f} °F`);
+// c
+let f2 = 70;
+// d
+let c2 = (f2 - 32) * 5 / 9
+console.log(`${f2} °F is ${c2} °C`);
 
 // Question 7
 document.write(`<h3>Answer: 7</h3>`);
