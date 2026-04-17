@@ -44,7 +44,7 @@
 
 // Question no 09
 
-let color = ["red", "orange", "green"];
+// let color = ["red", "orange", "green"];
 // a
 // let user = prompt("What color did you wants to add to the begining");
 // document.write(color)
@@ -58,11 +58,27 @@ let color = ["red", "orange", "green"];
 // document.write(`<br/>After adding your color: ${color}`);
 
 // c,d,e
-document.write(color)
-color.unshift("yellow","brown")
-color.shift()
-color.pop()
-color.push("grey")
-document.write(`<br/>After adding your color: ${color}`)
+// document.write(color)
+// color.unshift("yellow","brown")
+// color.shift()
+// color.pop()
+// color.push("grey")
+// document.write(`<br/>After adding your color: ${color}`)
+
+//  f,g pending  //
+
+// Question no 10
+// let studentScores = [320, 230, 480, 120];
+// document.write(studentScores)
+// document.write("<br/>")
+// studentScores.sort();
+// document.write(`Order score of students ${studentScores}`);
+
+// Question no 11
+document.write(`Cities list: <br/>`);
+let cities = ("Karachi","lahore","peshawar","gilgit","islamabad")
+document.write(cities);
+
+document.write(`Selected Cities list: <br/>`);
 
 
