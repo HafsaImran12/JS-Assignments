@@ -84,5 +84,3 @@ document.write(cities);
 document.write(`<br/> Selected Cities list: <br/>`);
 let selectedCities = cities.slice(2)
 document.write(selectedCities);
-
-// Question no 12
