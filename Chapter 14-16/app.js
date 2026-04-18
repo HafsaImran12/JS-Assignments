@@ -79,11 +79,10 @@
 
 // Question no 11
 document.write(`Cities list: <br/>`);
-let cities = ("Karachi","lahore","peshawar","gilgit","islamabad")
+let cities = ["Karachi","lahore","peshawar","gilgit","islamabad"]
 document.write(cities);
+document.write(`<br/> Selected Cities list: <br/>`);
+let selectedCities = cities.slice(2)
+document.write(selectedCities);
 
-// document.write(`Selected Cities list: <br/>`);
-// // cities.splice(2,2)
-// document.write(cities);
-
-
+// Question no 12
