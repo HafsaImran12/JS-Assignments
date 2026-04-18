@@ -57,15 +57,18 @@
 // color.push(user);
 // document.write(`<br/>After adding your color: ${color}`);
 
-// c,d,e
+// c
 // document.write(color)
 // color.unshift("yellow","brown")
-// color.shift()
-// color.pop()
-// color.push("grey")
-// document.write(`<br/>After adding your color: ${color}`)
+// document.write(`<br/>${color}`)
 
-//  f,g pending  //
+// // d
+// color.shift()
+// document.write(`<br/>${color}`)
+
+// // e
+// color.pop()
+// document.write(`<br/>${color}`)
 
 // Question no 10
 // let studentScores = [320, 230, 480, 120];
@@ -79,6 +82,8 @@ document.write(`Cities list: <br/>`);
 let cities = ("Karachi","lahore","peshawar","gilgit","islamabad")
 document.write(cities);
 
-document.write(`Selected Cities list: <br/>`);
+// document.write(`Selected Cities list: <br/>`);
+// // cities.splice(2,2)
+// document.write(cities);
 
 
