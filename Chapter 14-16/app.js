@@ -75,10 +75,10 @@
 // document.write(`Order score of students ${studentScores}`);
 
 // Question no 11
-document.write(`Cities list: <br/>`);
-let cities = ("Karachi","lahore","peshawar","gilgit","islamabad")
-document.write(cities);
-
-document.write(`Selected Cities list: <br/>`);
-
-
+// document.write(`Cities list: <br/>`);
+// let cities = ["Karachi", "lahore", "peshawar", "gilgit", "islamabad"];
+// document.write(cities);
+// document.write(`<br/>`);
+// document.write(`Selected Cities list: <br/>`);
+// let newCities = cities.slice(2,4);
+// document.write(newCities);
