@@ -150,4 +150,13 @@
 // document.write(`Out: <br/> ${out} <br/>`)
 
 // 15.
-// let phoneManufactures=["apple","samsung","motrolla","nokia","sony","haier"]
+let phoneManufac = ["apple", "samsung", "motrolla", "nokia", "sony", "haier"];
+document.write(
+  `<select><option>Select<option/>
+  <option>${phoneManufac[0]}<option/>
+  <option>${phoneManufac[1]}<option/>
+  <option>${phoneManufac[2]}<option/>
+  <option>${phoneManufac[3]}<option/>
+  <option>${phoneManufac[4]}<option/>
+  <option>${phoneManufac[5]}<option/>
+  <select/>`);

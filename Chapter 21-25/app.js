@@ -1,18 +1,18 @@
-// Question no 01
+// 01.
 
 // let firstName = prompt("Enter your first name:");
 // let lastName = prompt("Enter your last name:");
 // let fullName = firstName + lastName;
 // alert(`Hello ${fullName}`);
 
-// Question no 02
+// 02.
 
 // let userInput = prompt("Enter your favourite mobile model");
 // document.write(`My favourite phone is: ${userInput}`);
 // document.write("<br/>");
 // document.write(`Length of string is: ${userInput.length}`)
 
-// Question no 03
+// 03.
 
 // let str = "Pakistani";
 // let newStr =str.indexOf("n");
@@ -20,7 +20,7 @@
 // document.write("<br/>");
 // document.write(`Index of 'n' is ${newStr}`);
 
-// Question no 04
+// 04.
 
 // let str = "Hello World";
 // let newStr =str.lastIndexOf("l");
@@ -28,7 +28,7 @@
 // document.write("<br/>");
 // document.write(`Last index of 'l' is ${newStr}`);
 
-// Question no 05
+// 05.
 
 // let str = "Pakistani";
 // let newStr =str.charAt(3);
@@ -36,14 +36,14 @@
 // document.write("<br/>");
 // document.write(`Character at index 3 is ${newStr}`);
 
-// Question no 06
+// 06.
 
 // let firstName = prompt("Enter your first name:");
 // let lastName = prompt("Enter your last name:");
 // let fullName = firstName.concat(lastName);
 // alert(`Hello ${fullName}`);
 
-// Question no 07
+// 07.
 
 // let str = "Hyderabad"
 // let str2 = str.replace("Hyderabad", "Islamabad");
@@ -51,7 +51,7 @@
 // document.write("<br/>");
 // document.write(str2)
 
-// Question no 08
+// 08.
 
 // let message = "Ali and Sami are best friends. They play cricket and football together.";
 // let newMessage = message.replace(/and/g, "&");
@@ -59,7 +59,7 @@
 // document.write("<br/>");
 // document.write(newMessage);
 
-// Question no 09
+// 09.
 
 // let str = "472";
 // let newStr = Number(str);
@@ -71,7 +71,7 @@
 // document.write("<br/>");
 // document.write(`Type: ${typeof newStr}`);
 
-// Question no 10
+// 10.
 
 // let userInput = prompt("Enter a fruit");
 // let upperCase = userInput.toUpperCase();
@@ -79,7 +79,7 @@
 // document.write("<br/>");
 // document.write(`Upper case: ${upperCase}`);
 
-// Question no 11
+// 11.
 
 // let userInput = prompt("Enter a variable");
 // let titleCase = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
@@ -87,7 +87,7 @@
 // document.write("<br/>");
 // document.write(`Title case: ${titleCase}`);
 
-// Question no 12
+// 12.
 
 // let num = 35.36;
 // let result = num.toString().replace(".", "");
@@ -95,7 +95,7 @@
 // document.write("<br/>");
 // document.write(`Result: ${result}`);
 
-// Question no 13
+// 13.
 
 // let userName;
 // for (let i = 0; ; i++) {
@@ -113,7 +113,7 @@
 //   }
 // }
 
-// Question no 13
+// 14.
 
 // let items = ["cookie", "cake", "apple pie", "chips", "patties"];
 // let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
@@ -126,20 +126,17 @@
 // }
 
 let items = ["cookie", "cake", "apple pie", "chips", "patties"];
-
 let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
-
-// case insensitive banane ke liye
 let searchItem = userInput.toLowerCase();
 let lowerItems = items.map(item => item.toLowerCase());
-
-// index find karo
 let idx = lowerItems.indexOf(searchItem);
-
 if (idx !== -1) {
     document.write(`${userInput} is available at index ${idx} in our bakery`);
 } else {
     document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery`);
 }
 
-// Question no 12
+// 15.
+// 16.
+// 17.
+// 18.
