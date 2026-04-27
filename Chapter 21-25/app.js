@@ -97,33 +97,49 @@
 
 // Question no 13
 
-// let userName = prompt("Enter your username");
-// if (userName.includes("@") || userName.includes(".") || userName.includes(",") || userName.includes("!")) {
+// let userName;
+// for (let i = 0; ; i++) {
+//   userName = prompt("Enter your username");
+//   if (
+//     userName.includes("@") ||
+//     userName.includes(".") ||
+//     userName.includes(",") ||
+//     userName.includes("!")
+//   ) {
 //     alert("Please enter a valid username");
-// } else {
+//   } else {
 //     alert(`Valid username: ${userName}`);
+//     break;
+//   }
 // }
 
-let userName = prompt("Enter your username");
-let flag = true;
-for (let i = 0; i < userName; i++) {
-  let code = userName.charCodeAt(i);
-  if (
-    userName === 64 ||
-    userName === 46 ||
-    userName === 44 ||
-    userName === 33
-  ) {
-    flag = false;
-    break;
-  }
-}
+// Question no 13
 
-if (flag) {
-  alert("Please enter a valid username (no special symbols like @ . , !)");
+// let items = ["cookie", "cake", "apple pie", "chips", "patties"];
+// let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
+// let searchItem = userInput.toLowerCase();
+// let idx= items.indexOf(searchItem)
+// if (searchItem == items) {
+//     document.write(`${searchItem} is available at index ${idx} in our bakery`)
+// } else {
+//     document.write(`We are sorry. ${searchItem} is <b>not available</b> in our bakery`)
+// }
+
+let items = ["cookie", "cake", "apple pie", "chips", "patties"];
+
+let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
+
+// case insensitive banane ke liye
+let searchItem = userInput.toLowerCase();
+let lowerItems = items.map(item => item.toLowerCase());
+
+// index find karo
+let idx = lowerItems.indexOf(searchItem);
+
+if (idx !== -1) {
+    document.write(`${userInput} is available at index ${idx} in our bakery`);
 } else {
-  alert(`Valid username: ${userName}`);
+    document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery`);
 }
 
-// Question no 12
 // Question no 12
