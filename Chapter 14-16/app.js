@@ -79,15 +79,12 @@
 // document.write(`<br/>After update: ${colors}`);
 
 // // g
-let colors = ["pink", "orange", "brown", "yellow"];
-document.write(colors);
-let userIdx;
-let userClr;
-colors.splice(userIdx = +prompt("Which color you wants to delete"), userClr = prompt("Enter a color index"));
-document.write(`<br/>After update: ${colors}`);
-
-
-
+// let colors = ["pink", "orange", "brown", "yellow"];
+// document.write(colors);
+// let userIdx;
+// let userClr;
+// colors.splice(userIdx = +prompt("Which color you wants to delete"), userClr = prompt("Enter a color index"));
+// document.write(`<br/>After update: ${colors}`);
 
 // Question no 10
 // let studentScores = [320, 230, 480, 120];
