@@ -63,14 +63,6 @@
 
 // let str = "472";
 // let newStr = Number(str);
-// document.write(`Value: ${newStr}`);
-// document.write("<br/>");
-// document.write(`Type: ${typeof newStr}`);
-
-// Question no 10
-
-// let str = "472";
-// let newStr = Number(str);
 // document.write(`Value: ${str}`);
 // document.write("<br/>");
 // document.write(`Type: ${typeof str}`);
@@ -79,10 +71,59 @@
 // document.write("<br/>");
 // document.write(`Type: ${typeof newStr}`);
 
+// Question no 10
+
+// let userInput = prompt("Enter a fruit");
+// let upperCase = userInput.toUpperCase();
+// document.write(`User input: ${userInput}`);
+// document.write("<br/>");
+// document.write(`Upper case: ${upperCase}`);
+
 // Question no 11
 
-let userInput = prompt("Enter a fruit");
-let upperCase = userInput.toUpperCase();
-document.write(`User input: ${userInput}`);
-document.write("<br/>");
-document.write(`Upper case: ${upperCase}`);
+// let userInput = prompt("Enter a variable");
+// let titleCase = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
+// document.write(`User input: ${userInput}`);
+// document.write("<br/>");
+// document.write(`Title case: ${titleCase}`);
+
+// Question no 12
+
+// let num = 35.36;
+// let result = num.toString().replace(".", "");
+// document.write(`Number: ${num}`);
+// document.write("<br/>");
+// document.write(`Result: ${result}`);
+
+// Question no 13
+
+// let userName = prompt("Enter your username");
+// if (userName.includes("@") || userName.includes(".") || userName.includes(",") || userName.includes("!")) {
+//     alert("Please enter a valid username");
+// } else {
+//     alert(`Valid username: ${userName}`);
+// }
+
+let userName = prompt("Enter your username");
+let flag = true;
+for (let i = 0; i < userName; i++) {
+  let code = userName.charCodeAt(i);
+  if (
+    userName === 64 ||
+    userName === 46 ||
+    userName === 44 ||
+    userName === 33
+  ) {
+    flag = false;
+    break;
+  }
+}
+
+if (flag) {
+  alert("Please enter a valid username (no special symbols like @ . , !)");
+} else {
+  alert(`Valid username: ${userName}`);
+}
+
+// Question no 12
+// Question no 12
