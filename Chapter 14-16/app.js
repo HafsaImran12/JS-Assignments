@@ -70,6 +70,25 @@
 // color.pop()
 // document.write(`<br/>${color}`)
 
+// // f
+// let colors= ["pink","orange","brown","yellow"]
+// document.write(colors);
+// let userIdx;
+// let userClr;
+// colors.splice(userIdx = +prompt("At which index you wants to add the color"), 0, userClr = prompt("Enter a color name"));
+// document.write(`<br/>After update: ${colors}`);
+
+// // g
+let colors = ["pink", "orange", "brown", "yellow"];
+document.write(colors);
+let userIdx;
+let userClr;
+colors.splice(userIdx = +prompt("Which color you wants to delete"), userClr = prompt("Enter a color index"));
+document.write(`<br/>After update: ${colors}`);
+
+
+
+
 // Question no 10
 // let studentScores = [320, 230, 480, 120];
 // document.write(studentScores)
