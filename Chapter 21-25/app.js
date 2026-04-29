@@ -129,9 +129,27 @@
 // }
 
 // 15.
+// let userInput = ["Enter Password"];
 
+// let fruits = "apple,banana,mango";
 
+// let result = fruits.split(",");
+
+// console.log(result);
 
 // 16.
+
+// let university = "University of Karachi";
+// let arr = university.split("");
+// for (let i = 0; i < arr.length; i++){
+//     document.write(`${arr[i]} <br/>`);
+// }
+
 // 17.
+// let userChar = prompt("Enter a word");
+// let lastChar = userChar[userChar.length - 1];
+// document.write(`Last character of your word is ${lastChar}`);
+
 // 18.
+
+// let para= "The quick brown fox jumps over the lazy dog."
