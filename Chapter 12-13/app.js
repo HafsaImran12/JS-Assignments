@@ -1,72 +1,89 @@
 // Question 01
 
-// let ch = prompt("Enter a Character or Number")
-// let ascii = ch.charCodeAt(0)
+let ch = prompt("Enter a Character or Number")
+let ascii = ch.charCodeAt(0)
 
-// if (ascii >= 48 && ascii <=57) {
-//     alert(`${ascii} is number`)
-// } else if (ascii >= 65 && ascii <=90){
-//     alert(`${ascii} is Uppercase Character`)
-// } else if (ascii >= 97 && ascii <=122){
-//     alert(`${ascii} is Lowercase Character`)
-// }else {
-//   console.log("Special Character");
-// }
+if (ascii >= 48 && ascii <=57) {
+    alert(`${ascii} is number`)
+} else if (ascii >= 65 && ascii <=90){
+    alert(`${ascii} is Uppercase Character`)
+} else if (ascii >= 97 && ascii <=122){
+    alert(`${ascii} is Lowercase Character`)
+}else {
+  console.log("Special Character");
+}
 
 // Question 02
-// let a = +prompt("Enter first number");
-// let b = +prompt("Enter second number");
-// if (a > b) {
-//   alert(`${a} is greater than ${b}`);
-// } else if (a < b) {
-//   alert(`${a} is less than ${b}`);
-// } else if (a == b) {
-//   alert(`${a} is equal ${b}`);
-// } else {
-//   alert("Special character");
-// }
+let a = +prompt("Enter first number");
+let b = +prompt("Enter second number");
+if (a > b) {
+  alert(`${a} is greater than ${b}`);
+} else if (a < b) {
+  alert(`${a} is less than ${b}`);
+} else if (a == b) {
+  alert(`${a} is equal ${b}`);
+} else {
+  alert("Special character");
+}
 
 // Question 03
-// let num = +prompt("Enter Number");
-// if (num > 0) {
-//   alert("Positive Number");
-// } else if (num < 0) {
-//   alert("Negative Number");
-// } else {
-//   alert("Zero");
-// }
+let num = +prompt("Enter Number");
+if (num > 0) {
+  alert("Positive Number");
+} else if (num < 0) {
+  alert("Negative Number");
+} else {
+  alert("Zero");
+}
 
 // Question 04
-// let vowels = ;
-// let character = prompt("Enter any character");
-// if (character === vowels) {
-//   alert(`True ${vowels} is a Vowel`);
-// } else {
-//   alert(`False`);
-// }
+let vowels = ;
+let character = prompt("Enter any character");
+if (character === vowels) {
+  alert(`True ${vowels} is a Vowel`);
+} else {
+  alert(`False`);
+}
 
 // Question 05
-// let password = "correct";
-// let user = prompt(`Enter a correct password`)
+let password = "correct";
+let user = prompt(`Enter a correct password`)
 
-// if (user !== password) {
-//   alert(`Please enter your password`);
-// } else if (user === password){
-//   alert(`Correct! The password you
-// entered matches the original password`)
-// } else {
-//   alert(`Incorrect password`)
-// }
+if (user !== password) {
+  alert(`Please enter your password`);
+} else if (user === password){
+  alert(`Correct! The password you
+entered matches the original password`)
+} else {
+  alert(`Incorrect password`)
+}
 
 // Question 06
 
-// let greeting;
-// let hour = 13;
-// if (hour < 18) {
-//   greeting = "Good day";
-// } else{
-// greeting = "Good evening";
-// }
-// console.log(greeting)
+let greeting;
+let hour = 13;
+if (hour < 18) {
+  greeting = "Good day";
+} else{
+greeting = "Good evening";
+}
+console.log(greeting)
 
 // Question 07
+
+var time=+prompt('Please enter time in 24 hours \n clock format like: 1900 = 7pm.');
+if(time>=000 && time<1200){
+    alert('Good Morning')
+}
+else if(time>=1200 && time<1700){
+    alert('Good Afternoon')
+}
+else if(time >=1700 && time<2100){
+    alert('Good Evening')
+}
+else if(time >=2100 && time<=2359){
+    alert('Good Night')
+}
+else{
+    alert('Invalid Input')
+}
