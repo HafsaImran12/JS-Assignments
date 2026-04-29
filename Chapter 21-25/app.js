@@ -117,18 +117,21 @@
 
 // 14.
 
-let items = ["cookie", "cake", "apple pie", "chips", "patties"];
-let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
-let searchItem = userInput.toLowerCase();
-let lowerItems = items.map(item => item.toLowerCase());
-let idx = lowerItems.indexOf(searchItem);
-if (idx !== -1) {
-    document.write(`${userInput} is available at index ${idx} in our bakery`);
-} else {
-    document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery`);
-}
+// let items = ["cookie", "cake", "apple pie", "chips", "patties"];
+// let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
+// let searchItem = userInput.toLowerCase();
+// let lowerItems = items.map(item => item.toLowerCase());
+// let idx = lowerItems.indexOf(searchItem);
+// if (idx !== -1) {
+//     document.write(`${userInput} is available at index ${idx} in our bakery`);
+// } else {
+//     document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery`);
+// }
 
 // 15.
+
+
+
 // 16.
 // 17.
 // 18.
