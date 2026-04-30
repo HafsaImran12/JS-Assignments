@@ -118,24 +118,77 @@
 // 14.
 
 // let items = ["cookie", "cake", "apple pie", "chips", "patties"];
-// let userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/Maam?");
-// let searchItem = userInput.toLowerCase();
-// let lowerItems = items.map(item => item.toLowerCase());
-// let idx = lowerItems.indexOf(searchItem);
-// if (idx !== -1) {
-//     document.write(`${userInput} is available at index ${idx} in our bakery`);
+// let userInput = prompt(
+//   "Welcome to ABC Bakery. What do you want to order Sir/Maam?",
+// );
+// userInput = userInput.toLowerCase();
+// let check = false;
+// let i;
+// for (i = 0; i <= items.length; i++) {
+//   if (userInput === items[i]) {
+//     check = true;
+//   }
+// }
+// if (check) {
+//   document.write(`${userInput} is available at index ${i} in our bakery`);
 // } else {
-//     document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery`);
+//   document.write(
+//     `We are sorry. ${userInput} is <b>not available</b> in our bakery`,
+//   );
 // }
 
 // 15.
-// let userInput = ["Enter Password"];
 
-// let fruits = "apple,banana,mango";
+// let password = prompt("Enter your password: ");
+// let passwordLength = false;
+// let passwordChar = false;
+// let passwordInt = false;
+// let passwordStart = true;
 
-// let result = fruits.split(",");
+// // Checking for Alphabet
+// for (i = 0; i < password.length; i++) {
+//   let charValue = password[i].charCodeAt(0);
 
-// console.log(result);
+//   // Checking for UpperCase Letters
+//   if (charValue >= 65 && charValue <= 90) {
+//     passwordChar = true;
+//   }
+
+//   // Checking for LowerCase Letters
+//   else if (charValue >= 97 && charValue <= 122) {
+//     passwordChar = true;
+//   }
+// }
+
+// // Checking for Numbers
+// for (i = 0; i < password.length; i++) {
+//   let charValue = password[i].charCodeAt(0);
+//   if (charValue >= 48 && charValue <= 57) {
+//     passwordInt = true;
+//   }
+// }
+
+// // Checking for first letter
+// let charValue = password.charCodeAt(0);
+// if (charValue >= 48 && charValue <= 57) {
+//   passwordStart = false;
+// }
+
+// // Checking for Length
+// if (password.length >= 6) {
+//   passwordLength = true;
+// }
+
+// if (
+//   passwordChar === false ||
+//   passwordInt === false ||
+//   passwordLength === false ||
+//   passwordStart === false
+// ) {
+//   alert("Enter valid Password");
+// } else {
+//   alert("Password Approved");
+// }
 
 // 16.
 
@@ -146,10 +199,25 @@
 // }
 
 // 17.
+
 // let userChar = prompt("Enter a word");
 // let lastChar = userChar[userChar.length - 1];
 // document.write(`Last character of your word is ${lastChar}`);
 
 // 18.
 
-// let para= "The quick brown fox jumps over the lazy dog."
+// let str = "The quick brown fox jumps over the lazy dog.";
+
+// document.write(`Text: ${str}`);
+// document.write(`<br/>`);
+
+// let lowerStr = str.toLowerCase();
+// let words = lowerStr.split(" ");
+// let count = 0;
+
+// for (let i = 0; i < str.length; i++){
+//     if (words[i] === "the") {
+//         count++;
+//     }
+// }
+// document.write(`Occurance of 'the': ${count}`);
