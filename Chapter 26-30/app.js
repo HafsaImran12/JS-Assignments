@@ -39,14 +39,14 @@
 // let num = Math.random()
 // // ---FORMULA--->   Math.random() * (highest num - lowest num) +1
 // // any random num = 1 to 10
-// num = Math.random() * (10 - 1) + 1;
+// num = Math.random() * 10 + 1;
 // num = Math.floor(num);
 // document.write(`random Dice Value: ${num}`);
 
 // 05.
 
 // let num = Math.random();
-// num = Math.random() * (3 - 1) + 1;
+// num = Math.random() * 2 + 1;
 // num = Math.floor(num);
 
 // if (num === 1) {
@@ -57,7 +57,25 @@
 
 // 06.
 
-// let num = Math.random()
-// num = Math.random() * (100 - 1) + 1;
+// let num = Math.random();
+// num = Math.random() * 100 + 1;
 // num = Math.floor(num);
 // document.write(`random number between 1 and 100: ${num}`);
+
+// 07.
+
+// let userInput = parseFloat(prompt("Enter your weight in kilograms"))
+// let userWeight = userInput.toFixed(2)
+// document.write(`The weight of user is ${userWeight} kilograms`)
+
+// 08.
+
+// let randomNum = Math.floor(Math.random() * 10) + 1;
+// let userNum = parseInt(prompt("Guess the secret number:"));
+// if (userNum == randomNum) {
+//     alert(`Congratulations!🎉 You guess the secret number`);
+// } else {
+//     alert(`Try again`)
+// }
+
+
