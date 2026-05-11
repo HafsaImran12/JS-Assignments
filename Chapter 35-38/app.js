@@ -63,4 +63,21 @@
 
 // 07.
 
+// let startNum=parseInt(prompt("Enter start number"))
+// let endNum=parseInt(prompt("Enter end number"))
+
+// let count = (num) => {
+//   for (let i = startNum; i <= endNum; i++){
+//     document.write(`${i} <br/>`);
+    
+//   }
+// }
+// count()
+
+// 09.
+
+// let area = (width, height) => width * height;
+// document.write(area(4,6))
+
+
 
