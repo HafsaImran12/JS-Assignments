@@ -69,15 +69,33 @@
 // let count = (num) => {
 //   for (let i = startNum; i <= endNum; i++){
 //     document.write(`${i} <br/>`);
-    
+
 //   }
 // }
 // count()
 
 // 09.
 
+// let area = (width, height) => {
+//   let A = width * height;
+//   return A
+// };
+// document.write(area(3,4));
+// -------------------------------
 // let area = (width, height) => width * height;
-// document.write(area(4,6))
+// document.write(area(3,4));
 
+// 10.
 
+// let str = pal => {
+//     let reverse= pal.split("").reverse().join("")
 
+//     if (pal == reverse) {
+//         return`${pal} is Palindrome`
+//     } else {
+//         return`${pal} is not Palindrome`
+//     }
+// }
+// document.write(str("noon"));
+
+// 11.
