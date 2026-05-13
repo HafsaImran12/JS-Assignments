@@ -74,8 +74,24 @@
 
 // 09
 
-let str = (empty) => empty
-console.log(str(""));
+// let str = prompt("Enter something");
+
+// let checkString = (text) => {
+//     if (text === "") {
+//         console.log("Empty string");
+//     } else {
+//         console.log("Not empty");
+//     }
+// }
+
+// checkString(str);
+
+// 10
+
+// let str = (text) => text[0]
+// console.log(str("hello"));
+
+// 11
 
 
 
