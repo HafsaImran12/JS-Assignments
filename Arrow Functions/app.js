@@ -1,10 +1,11 @@
-// 01
+// // 1. Write an arrow function to add two numbers.
+
 // let userNumber1= +prompt("Enter first number")
 // let userNumber2= +prompt("Enter second number")
 // let sum = (num1, num2) => num1 + num2;
 // console.log(sum(userNumber1,userNumber2));
 
-// 02
+// // 2. Write an arrow function to check if a number is even or odd.
 
 // let userNumber = +prompt("Enter a number")
 // let checkNumber = (num) => {
@@ -16,7 +17,7 @@
 // }
 // checkNumber(userNumber)
 
-// 03
+// // 3. Write an arrow function to return the greater of two numbers.
 
 // let userNumber1 = +prompt("Enter first number");
 // let userNumber2 = +prompt("Enter second number");
@@ -31,7 +32,7 @@
 // };
 // greater(userNumber1, userNumber2);
 
-// 04
+// // 4. Write an arrow function that returns Pass if marks > 40, otherwise Fail.
 
 // let userMarks = +prompt("Enter your marks")
 // let marks = () => {
@@ -43,7 +44,7 @@
 // }
 // marks(userMarks)
 
-// 05
+// // 5. Write an arrow function to check if a number is positive or negative.
 
 // let userNumber = +prompt("Enter a number")
 // let checks = () =>{
@@ -57,22 +58,22 @@
 // }
 // checks(userNumber)
 
-// 06
+// // 6. Write an arrow function to return the square of a number.
 
 // let square = (num) => num * num;
 // console.log(square(3));
 
-// 07
+// // 7. Write an arrow function to convert a string to uppercase.
 
 // let str = (upper) => upper.toUpperCase()
 // console.log(str("hello"));
 
-// 08
+// // 8. Write an arrow function to convert a string to lowercase.
 
 // let str = (lower) => lower.toLowerCase()
 // console.log(str("HELLO"));
 
-// 09
+// // 9. Write an arrow function to check if a string is empty.
 
 // let str = prompt("Enter something");
 
@@ -86,27 +87,27 @@
 
 // checkString(str);
 
-// 10
+// // 10. Write an arrow function to return the first character of a string.
 
 // let firstL = (text) => text[0]
 // console.log(firstL("hello"));
 
-// 11
+// // 11. Write an arrow function to return the first element of an array.
 
 // let firstEl = (arr) => arr[0]
 // console.log(firstEl(["apple","mango","orange"]));
 
-// 12
+// // 12. Write an arrow function to return the last element of an array.
 
 // let lastEl = (arr) => arr[arr.length - 1]
 // console.log(lastEl(["red", "green","pink","blue"]));
 
-// 13
+// // 13. Write an arrow function to count the number of elements in an array.
 
 // let lastEl = (arr) => arr.length
 // console.log(lastEl(["red", "green","pink","blue"]));
 
-// 14
+// // 14. Write an arrow function to return all even numbers from an array.
 
 // let evenNum = (arr) => {
 //   for(let num of arr){
@@ -118,7 +119,7 @@
 // };
 // evenNum([1, 2, 3, 4, 5, 6, 7, 8]);
 
-// 15
+// // 15. Write an arrow function to return all odd numbers from an array.
 
 // let oddNum = (arr) => {
 //   for(let num of arr){
@@ -129,7 +130,7 @@
 // };
 // oddNum([1, 2, 3, 4, 5, 6, 7, 8]);
 
-// 16
+// // 16. Write an arrow function to return numbers greater than 10 from an array.
 
 // let greaterNum = (arr) => {
 //   for(let num of arr){
@@ -140,7 +141,7 @@
 // };
 // greaterNum([2,4,3,5,11,34,543,24,10]);
 
-// 17
+// // 17. Write an arrow function to find the largest number in an array.
 
 // let largestNum = (arr) => {
 //   let largest = arr[0];
@@ -154,7 +155,7 @@
 // };
 // console.log(largestNum([12,43,21,76]));
 
-// 18
+// // 18. Write an arrow function to find the smallest number in an array.
 
 // let smallestNum = (arr) => {
 //   let smallest = arr[0];
@@ -168,5 +169,85 @@
 // };
 // console.log(smallestNum([12,43,21,76]));
 
-// 19
+// // 19. Write an arrow function to return only string values from a mixed array.
 
+// let lastItem = (arr) => {
+//     for (let items of arr) {
+//         if (typeof items == "string") {
+//             console.log(items);
+
+//         }
+//     }
+// }
+
+// lastItem([true,4,"hello",null,undefined])
+
+// // 20. Write an arrow function to remove the last element of an array.
+
+// let removeArr = (arr) => {
+//   arr.pop();
+//   return arr;
+// };
+// console.log(removeArr(["rose", "lily", "jasmine", "sunflowers"]));
+
+// // 21. Write an arrow function to sum all numbers in an array.
+
+// let sumArr = (arr) => {
+//     let sum = 0;
+//     for (let num of arr) {
+//         sum += num;
+//     }
+//     return sum;
+// }
+// console.log(sumArr([6,4,6,1,33]))
+
+// // 22. Write an arrow function to count how many vowels are in a string.
+
+// let checkVowels = (string) => {
+//     let count = 0;
+
+//     for (let i = 0; i < string.length; i++) {
+//         if (
+//             string[i] == "a" ||
+//             string[i] == "e" ||
+//             string[i] == "i" ||
+//             string[i] == "o" ||
+//             string[i] == "u"
+//         ) {
+//             count++;
+//         }
+//     }
+
+//     console.log(`Vowels count: ${count}`);
+// }
+
+// checkVowels("JavaScript");
+
+// // 23. Write an arrow function to remove all spaces from a string.
+
+// let removeSpace = (str) => str.trim()
+// console.log(removeSpace("     hey   "));
+
+// // 24. Write an arrow function to check if a word is present in a sentence.
+
+// let userWord = prompt("Which word do you want to check")
+// let word = (check) => {
+//     for (i = 0; i < check.length; i++){
+//         if (check[i] == userWord) {
+//             console.log(`${userWord} is present in this string: ${check}`);
+//         }
+//     }
+// }
+// word("How are you")
+
+// // 25. Write an arrow function to return the first word of a sentence.
+
+// // 26. Write an arrow function to return the last word of a sentence.
+
+// // 27. Write an arrow function to reverse a string.
+
+// // 28. Write an arrow function to check if a number is divisible by 3.
+
+// // 29. Write an arrow function to check if a string contains only letters.
+
+// // 30. Write an arrow function to convert a sentence into an array of words.
