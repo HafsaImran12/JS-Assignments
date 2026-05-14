@@ -98,5 +98,51 @@
 
 // 12
 
+// let lastEl = (arr) => arr[arr.length - 1]
+// console.log(lastEl(["red", "green","pink","blue"]));
+
+// 13
+
+// let lastEl = (arr) => arr.length
+// console.log(lastEl(["red", "green","pink","blue"]));
+
+// 14
+
+// let evenNum = (arr) => {
+//   for(let num of arr){
+//     if (num % 2 == 0) {
+//       console.log(num);
+      
+//     }
+//   }
+// };
+// evenNum([1, 2, 3, 4, 5, 6, 7, 8]);
+
+// 15
+
+// let oddNum = (arr) => {
+//   for(let num of arr){
+//     if (num % 2 != 0) {
+//       console.log(num);
+//     }
+//   }
+// };
+// oddNum([1, 2, 3, 4, 5, 6, 7, 8]);
+
+// 16
+
+// let greaterNum = (arr) => {
+//   for(let num of arr){
+//     if (num >10) {
+//       console.log(num);
+//     }
+//   }
+// };
+// greaterNum([2,4,3,5,11,34,543,24,10]);
+
+// 17
+
+
+
 
 
