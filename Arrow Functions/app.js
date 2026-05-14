@@ -242,11 +242,33 @@
 
 // // 25. Write an arrow function to return the first word of a sentence.
 
+// let firstWord = (str) => str.split(" ")[0];
+// console.log(firstWord("Hello how are you"));
+
 // // 26. Write an arrow function to return the last word of a sentence.
+
+// let lastWord = (str) => {
+//     return str.split(" ")[str.split(" ").length-1]
+// };
+// console.log(lastWord("Hello how are you"));
 
 // // 27. Write an arrow function to reverse a string.
 
+// let reverse = (str) => str.split("").reverse().join("")
+// console.log(reverse("Hello how are you"));
+
 // // 28. Write an arrow function to check if a number is divisible by 3.
+
+// let userNumber = +prompt("Enter a number")
+// let checkNumber = (num) => {
+//     if(userNumber % 3 == 0) {
+//         alert(`Number is divisible by 3`);
+//     } else {
+//         alert(`Number is not divisible by 3`)
+//     }
+// }
+// checkNumber(userNumber)
+
 
 // // 29. Write an arrow function to check if a string contains only letters.
 
