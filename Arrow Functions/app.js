@@ -88,10 +88,15 @@
 
 // 10
 
-// let str = (text) => text[0]
-// console.log(str("hello"));
+// let firstL = (text) => text[0]
+// console.log(firstL("hello"));
 
 // 11
+
+// let firstEl = (arr) => arr[0]
+// console.log(firstEl(["apple","mango","orange"]));
+
+// 12
 
 
 
