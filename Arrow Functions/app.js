@@ -112,7 +112,7 @@
 //   for(let num of arr){
 //     if (num % 2 == 0) {
 //       console.log(num);
-      
+
 //     }
 //   }
 // };
@@ -142,7 +142,31 @@
 
 // 17
 
+// let largestNum = (arr) => {
+//   let largest = arr[0];
 
+//   for (let num of arr) {
+//     if (num > largest) {
+//       largest = num;
+//     }
+//     }
+//     return largest
+// };
+// console.log(largestNum([12,43,21,76]));
 
+// 18
 
+// let smallestNum = (arr) => {
+//   let smallest = arr[0];
+
+//   for (let num of arr) {
+//     if (num < smallest) {
+//       smallest = num;
+//     }
+//     }
+//     return smallest;
+// };
+// console.log(smallestNum([12,43,21,76]));
+
+// 19
 
