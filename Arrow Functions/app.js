@@ -269,7 +269,6 @@
 // }
 // checkNumber(userNumber)
 
-
 // // 29. Write an arrow function to check if a string contains only letters.
 
 // // 30. Write an arrow function to convert a sentence into an array of words.
