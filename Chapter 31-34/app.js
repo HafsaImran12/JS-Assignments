@@ -71,7 +71,76 @@
 
 // // 08.
 
-let now = new Date();
+// let later = new Date("31 dec 2020")
+// document.write(`Later Date: ${later}`)
 
-let latter = 
+// // 09.
 
+// let lastRamzan = new Date("08 june 2015")
+// let thisRamzan = new Date("February 18, 2026")
+// let result = thisRamzan - lastRamzan
+// let days = Math.floor(result / (1000 * 60 * 60 * 24))
+// document.write(`${days} days have passed since 1st ramzan, 2015`)
+
+// // 10.
+
+// let referenceDate = new Date("December 5, 2015");
+// let start2015 = new Date("January 1, 2015");
+
+// let diffMilliseconds = referenceDate - start2015;
+// let diffSeconds = diffMilliseconds / 1000;
+
+// document.write(`Reference Date: ${referenceDate} <br>`);
+// document.write(`Seconds has passed since beginning of 2015: ${diffSeconds}`);
+
+// // 11.
+
+// let now = new Date()
+// document.write(`${now}, <br/>`)
+// let hourAgo = new Date(now.getTime() - (60 * 60 * 1000))
+// document.write(`1 hour ago ${hourAgo}`)
+
+// // 12.
+
+// let now = new Date();
+// document.write(`Current Date: ${now} <br/>`);
+// let years = new Date(now);
+// years.setFullYear(years.getFullYear() - 100);
+// document.write(`100 years back, it was ${years}`);
+
+// // 13.
+
+// let now = new Date();
+// let currentYear = now.getFullYear();
+// let birthYear = Number(prompt("Enter your birth date"));
+// let age = currentYear - birthYear;
+// document.write(`Your Age is: ${age} years old`);
+
+// // 14.
+
+// function bill(
+//   customerName,
+//   currentMonth,
+//   numberOfUnits,
+//   chargesPerUnit,
+//   latePaymentSurcharge
+// ) {
+//   this.name = customerName;
+//   this.month = currentMonth;
+//   this.numberOfUnits = numberOfUnits;
+//   this.chargesPerUnit = chargesPerUnit;
+//   this.latePaymentSurcharge = latePaymentSurcharge;
+// }
+
+// let customer1 = new bill("Hafsa", "June", 234, 16, 350);
+
+// console.table(customer1);
+
+// let netAmountPayable =
+//   customer1.numberOfUnits * customer1.chargesPerUnit;
+
+// let grossAmountPayable =
+//   netAmountPayable + customer1.latePaymentSurcharge;
+
+// console.log("Net Amount:", netAmountPayable);
+// console.log("Gross Amount:", grossAmountPayable);
