@@ -61,3 +61,19 @@
 // num = Math.random() * 100 + 1;
 // num = Math.floor(num);
 // document.write(`random number between 1 and 100: ${num}`);
+
+// 07.
+
+// let userWeight = +prompt("Enter your weight in kilograms");
+// let weight = Math.abs(userWeight)
+// document.write(`The weight of user is ${weight} kilograms`)
+
+// 08.
+
+// let secretNum = Math.floor(Math.random() * 10) + 1;
+// let secretNum = 3;
+// let userNum = Number(prompt("Guess the secret number (1-10)"));
+// while (userNum !== secretNum) {
+//     userNum = Number(prompt("Wrong guess! Try again"));
+// }
+// document.write("🎉 Congrats! You guessed the secret number.");
