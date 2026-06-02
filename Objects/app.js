@@ -42,15 +42,24 @@
 
 // 03.
 
-let Product(name, price, quantity){
+function Product(name, price, quantity) {
   this.name = name;
   this.price = price;
   this.quantity = quantity;
 }
 
-let product1 = new("Pencil",20,2)
-
-
+let product1 = new Product("Pencil",20,2)
 console.log(product1);
 
+let product2 = new Product("Eraser",15,3)
+console.log(product2);
 
+// 04.
+
+let Population(name, gender, address, education, profession){
+  this.name = name
+  this.gender = gender
+  this.address = address
+  this.education = education
+  this.profession = profession
+}
