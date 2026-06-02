@@ -13,17 +13,17 @@
 
 // 03.
 
-// let num1 = parseInt(prompt("Enter first number"));
-// let num2 = parseInt(prompt("Enter second number"));
+// let num1 = Number(prompt("Enter first number"));
+// let num2 = Number(prompt("Enter second number"));
 
 // let add = (val1,val2)=> val1 + val2;
 // console.log(`${num1} + ${num2} = ${add(num1,num2)}`);
 
 // 04.
 
-// let num1 = parseInt(prompt("Enter first number"));
+// let num1 = Number(prompt("Enter first number"));
 // let operator = prompt("Enter Operator(+, -, *, /)");
-// let num2 = parseInt(prompt("Enter second number"));
+// let num2 = Number(prompt("Enter second number"));
 
 // let calculate = (val1, val2, oper) => {
 //   if (oper == "+") {
@@ -57,14 +57,14 @@
 //   return result;
 // };
 
-// let number = parseInt(prompt("Enter a number"));
+// let number = Number(prompt("Enter a number"));
 
 // document.write(`Factorial of ${number} is ${fact(number)}`);
 
 // 07.
 
-// let startNum=parseInt(prompt("Enter start number"))
-// let endNum=parseInt(prompt("Enter end number"))
+// let startNum=Number(prompt("Enter start number"))
+// let endNum=Number(prompt("Enter end number"))
 
 // let count = (num) => {
 //   for (let i = startNum; i <= endNum; i++){
@@ -80,8 +80,13 @@
 //   let A = width * height;
 //   return A
 // };
-// document.write(area(3,4));
+// let width=+prompt('Enter width of triangle');
+// let height=+prompt('Enter height of triangle');
+// let result=areaCalculate(width,height);
+// document.write(result)
+
 // -------------------------------
+
 // let area = (width, height) => width * height;
 // document.write(area(3,4));
 
@@ -99,3 +104,50 @@
 // document.write(str("noon"));
 
 // 11.
+
+// let upperCase = (str) => {
+//     let arr = str.split(" ");
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++){
+//         newArr.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1))
+//     }
+//     return newArr.join(" ")
+// }
+
+// let str = "the quick brown fox"
+// let result = upperCase (str)
+// document.write(`Example string: ${str} <br/>`)
+// document.write(`Expected string: ${result} <br/>`)
+
+// 12.
+
+// let longest = (str) => {
+//     let split = str.split (" ")
+//     let longestWord = split [0]
+//     for (let i = 0; i < split.length; i++){
+//         if (split[i].length > longestWord.length) {
+//             longestWord = split[i]
+//         }
+//     }
+//     return longestWord
+// }
+
+// let str = "Web Development Tutorial";
+// let result = longest(str);
+
+// document.write(`EXAMPLE STRING : ${str} <br/>`);
+// document.write(`LONGEST STRING : ${result}`);
+
+// 13.
+
+let countLetter = (str, letter) => {
+    let count = 0;
+    for (let i = 0; i < str.length; i++){
+        if (str[i] === letter) {
+            count++;
+        }
+    }
+
+    return count;
+}
+document.write(countLetter("JSResourceS.com", "e"));

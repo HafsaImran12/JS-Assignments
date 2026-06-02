@@ -1,6 +1,6 @@
 // OBJECTS
 
-// 01.
+// // 01.
 
 // var itemsArray = [
 //   { name: "juice", price: "50", quantity: "3" },
@@ -17,7 +17,7 @@
 // }
 // console.log(`Total Price of All Items = ${totalAllItems}`);
 
-// 02.
+// // 02.
 
 // let info = {
 //   firstName: "Hafsa",
@@ -40,26 +40,26 @@
 
 // console.log("lastName" in info, "Last name exist in info");
 
-// 03.
+// // 03.
 
-function Product(name, price, quantity) {
-  this.name = name;
-  this.price = price;
-  this.quantity = quantity;
-}
+// function Product(name, price, quantity) {
+//   this.name = name;
+//   this.price = price;
+//   this.quantity = quantity;
+// }
 
-let product1 = new Product("Pencil",20,2)
-console.log(product1);
+// let product1 = new Product("Pencil",20,2)
+// console.log(product1);
 
-let product2 = new Product("Eraser",15,3)
-console.log(product2);
+// let product2 = new Product("Eraser",15,3)
+// console.log(product2);
 
-// 04.
+// // 04.
 
-let Population(name, gender, address, education, profession){
-  this.name = name
-  this.gender = gender
-  this.address = address
-  this.education = education
-  this.profession = profession
-}
+// let Population(name, gender, address, education, profession){
+//   this.name = name
+//   this.gender = gender
+//   this.address = address
+//   this.education = education
+//   this.profession = profession
+// }
