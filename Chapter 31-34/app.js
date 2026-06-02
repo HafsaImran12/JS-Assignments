@@ -144,3 +144,24 @@
 
 // console.log("Net Amount:", netAmountPayable);
 // console.log("Gross Amount:", grossAmountPayable);
+
+// -----------------------------------------------------
+
+// let customerName = "Hafsa Imran";
+// let currentMonth = "June";
+// let numberOfUnits = 234;
+// let chargesPerUnit = 16.50;
+// let latePaymentSurcharge = 350;
+
+// let netAmountPayable = numberOfUnits * chargesPerUnit;
+// let grossAmountPayable = netAmountPayable + latePaymentSurcharge;
+
+// document.write(`<h2>K-Electric Bill</h2>`);
+
+// document.write(`Customer Name: <b>${customerName}</b><br><br>`);
+// document.write(`Current Month: <b>${currentMonth}</b><br><br>`);
+// document.write(`Number of Units: <b>${numberOfUnits}</b><br><br>`);
+// document.write(`Charges per Unit: <b>${chargesPerUnit.toFixed(2)}</b><br><br>`);
+// document.write(`Net Amount Payable (within Due Date): <b>${netAmountPayable.toFixed(2)}</b><br><br>`);
+// document.write(`Late Payment Surcharge: <b>${latePaymentSurcharge.toFixed(2)}</b><br><br>`);
+// document.write(`Gross Amount Payable (after Due Date): <b>${grossAmountPayable.toFixed(2)}</b>`);
